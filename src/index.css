@@ -1,0 +1,186 @@
+html{
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/taylor-smith-aDZ5YIuedQg-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.AppContainer{
+  margin-bottom: 60px;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  height: 130px;
+}
+
+.headerIcon{
+  margin-left: 40px;
+  margin-top: 0px;
+  transform: translateY(40px);
+}
+
+.searchBtn{
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.searchBtn:hover{
+  cursor: pointer;
+  color: rgb(252, 252, 117);
+}
+
+.searchBar{
+  float: right;
+  margin-right: 5%;
+  width: 250px;
+  background-color: black;
+  color:white;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+.searchBar input{
+  margin-left: 10px;
+  width: 170px;
+}
+
+.navigation{
+  float: right;
+}
+
+.navigation ul{
+  margin-right: 30px;
+}
+
+.navigation li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px; 
+  font-size: larger;
+} 
+
+.navigation a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.navigation a:hover{
+  color: rgb(252, 252, 117);
+}
+
+.tileCard{
+  width: 200px;
+  display: inline-flex;
+  margin: 2%;
+  padding: 10px;
+  border: solid;
+  border-color: black;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+.tileCard:hover{
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+.cartBtn:hover{
+  cursor: pointer;
+}
+
+.cartBtn{
+  width: 200px;
+  height: 60px;
+  align-self: center;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.modal{
+  z-index: 1;
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background-color:rgb(0, 0, 0, 0.4);
+}
+
+.cartForm{
+  width: 70%;
+  height: 40%;
+  margin: 15px auto;
+  padding: 2%;
+  background-color: lightgrey;
+  overflow: scroll;
+}
+
+.cartForm div{
+  scroll-behavior: auto;
+  margin: 5px;
+}
+
+.qtyPrice{
+  display: block;
+  float: right;
+}
+
+.filterBtn{
+  float: right;
+  margin-top: .5rem;
+  margin-right: 1rem;
+}
+
+.filterResults{
+  width: 70%;
+  height: 60%;
+  margin: 15px auto;
+  padding: 2%;
+  background-color: lightgrey;
+  overflow: scroll;
+}
+
+.filterResults div{
+  scroll-behavior: auto;
+  margin: 5px;
+}
+
+
+.imageIcon{
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.footer{
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  transform: translateY(370px);
+}
